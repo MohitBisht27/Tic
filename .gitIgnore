@@ -1,0 +1,9 @@
+node_modules/
+dist/
+
+git init
+git checkout -b main
+git remote add origin https://github.com/ramram27/node-app.git
+git add .
+git commit -m "write dockerfile"
+git push origin main
